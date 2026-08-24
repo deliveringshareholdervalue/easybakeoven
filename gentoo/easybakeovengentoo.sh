@@ -13,5 +13,5 @@ if ! equery list kde-plasma/kdeplasma-addons >/dev/null 2>&1; then
 fi
 echo "Done!"
 
-done
+exit 0
 
