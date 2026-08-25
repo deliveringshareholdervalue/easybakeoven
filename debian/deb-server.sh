@@ -24,7 +24,7 @@ while true; do
 
 			sudo apt update
 # installs all necessary dependencies with a yes check automatically so no authentication needed
-			sudo apt install -y curl git openssh cockpit fastfetch openjdk-25-jdk wget tmux ufw btop build-essential neovim nano ca-certificates gnupg
+			sudo apt install -y curl git openssh-server cockpit fastfetch openjdk-25-jdk wget tmux ufw btop build-essential neovim nano ca-certificates gnupg
 			# installs docker keyring
 			sudo mkdir -p /etc/apt/keyrings
 			curl -fsSL https://docker.com | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
